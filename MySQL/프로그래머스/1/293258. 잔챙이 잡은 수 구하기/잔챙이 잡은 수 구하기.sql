@@ -1,0 +1,6 @@
+-- 코드를 작성해주세요
+SELECT
+    COUNT(fi.ID) AS FISH_COUNT
+FROM FISH_INFO as fi
+WHERE fi.LENGTH IS NULL
+;
